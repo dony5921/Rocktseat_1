@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="">
 <head>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,10 +14,17 @@
   <div id="container">
   <div id="profile">
     <img 
-    src="./assets/dony.img.jpg" alt="Foto de Dony , sorrindo usando oculos  e camisa preta "
+    src="./assets/dony.img.jpg" alt="Foto de Dony , sorrindo usando óculos  e camisa preta "
     />
     <p>@donygoncalvez</p>
     <div>
+
+      <div id="switch" onclick="toggleMode()"> 
+        <button></button>
+        <span></span>
+
+      </div>
+
       <ul>
          <li>
           <a href="#">Inscrever-se no</a>
@@ -30,8 +37,34 @@
          <li>
           <a href="https://github.com/dony5921">Ver meu portfólio</a>
          </li>
+
       </ul>
+      <div id="social-links">
+        <a href="https://github.com/dony5921" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://github.com/dony5921" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://github.com/dony5921" target="_blank">
+        <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+
+        <a href="https://github.com/dony5921" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        
+      </div>
     </div>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script  src="./script.js"></script>
   </div>
 </body>
 </html>
